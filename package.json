@@ -1,0 +1,16 @@
+{
+  "name": "JavaScript-ES6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gustavottc/JavaScript-ES6.git",
+  "author": "Gustavo Maciel <gustamaciel2012@hotmail.com>",
+  "license": "Unlicense",
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o bundle.js -w"
+  }
+}
